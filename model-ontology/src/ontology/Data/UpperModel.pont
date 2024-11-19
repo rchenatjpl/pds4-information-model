@@ -1,4 +1,4 @@
-; Tue Sep 03 20:58:20 EDT 2024
+; Wed Nov 13 14:47:11 EST 2024
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -10097,7 +10097,7 @@
 	(single-slot reference_type
 ;+		(comment "The reference_type attribute provides the name of the association.")
 		(type STRING)
-;+		(value "bundle_has_browse_collection" "bundle_has_calibration_collection" "bundle_has_data_collection" "bundle_has_document_collection" "bundle_has_geometry_collection" "bundle_has_spice_kernel_collection" "bundle_has_schema_collection" "bundle_has_member_collection" "bundle_has_context_collection" "bundle_has_miscellaneous_collection")
+;+		(value "bundle_has_browse_collection" "bundle_has_calibration_collection" "bundle_has_data_collection" "bundle_has_document_collection" "bundle_has_geometry_collection" "bundle_has_spice_kernel_collection" "bundle_has_schema_collection" "bundle_has_member_collection" "bundle_has_context_collection" "bundle_has_miscellaneous_collection" "bundle_has_external_collection")
 ;+		(cardinality 1 1)
 		(create-accessor read-write))
 	(single-slot lidvid_reference
@@ -12079,7 +12079,7 @@
 	(single-slot unit_id
 ;+		(comment "The unit_id attribute provides a character or character string which serves as an abbreviation for, or symbol representing, a unit of measure.")
 		(type STRING)
-;+		(value "W*m**-2*sr**-1*Hz**-1" "W*m**-2*sr**-1*nm**-1" "W*m**-2*sr**-1*um**-1" "W*m**-3*sr**-1" "uW*cm**-2*sr**-1*um**-1" "W/m**2/sr/Hz" "W/m**2/sr/nm" "W/m**2/sr/μm" "W/m**3/sr" "μW/cm**2/sr/μm")
+;+		(value "W*m**-2*sr**-1*Hz**-1" "W*m**-2*sr**-1*nm**-1" "W*m**-2*sr**-1*um**-1" "W*m**-3*sr**-1" "uW*cm**-2*sr**-1*um**-1" "W/m**2/sr/Hz" "W/m**2/sr/nm" "W/m**2/sr/μm" "W/m**3/sr" "μW/cm**2/sr/μm" "W/cm**2/sr/μm")
 ;+		(cardinality 1 1)
 		(create-accessor read-write)))
 
